@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Abdullah AL Monsur - PDF Library</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f9fa;
+      color: #222;
+    }
+    header {
+      background: #2b7cff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    header p {
+      margin-top: 6px;
+      font-size: 16px;
+    }
+    .pdf-gallery {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 10px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 16px;
+    }
+    .pdf-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .pdf-title {
+      padding: 12px;
+      font-weight: 600;
+      font-size: 16px;
+      border-bottom: 1px solid #eee;
+    }
+    .pdf-wrap {
+      height: 360px;
+      overflow: hidden;
+      border-bottom: 1px solid #eee;
+    }
+    .pdf-wrap embed {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+    .pdf-actions {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+      background: #fafafa;
+    }
+    .btn {
+      padding: 8px 12px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      transition: 0.2s;
+    }
+    .btn-primary {
+      background: #2b7cff;
+      color: white;
+    }
+    .btn-primary:hover {
+      background: #1e5ec8;
+    }
+    .btn-secondary {
+      background: white;
+      color: #2b7cff;
+      border: 1px solid #2b7cff;
+    }
+    .btn-secondary:hover {
+      background: #2b7cff;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Abdullah AL Monsur</h1>
+  <p>This webpage is created for academic and professional purposes.</p>
+</header>
+
+<section class="pdf-gallery">
+  <!-- PDF 1 -->
+  <div class="pdf-card">
+    <div class="pdf-title">Electrical and Electronics Measurements</div>
+    <div class="pdf-wrap">
+      <embed src="pdf1.pdf" type="application/pdf">
+    </div>
+    <div class="pdf-actions">
+      <a class="btn btn-primary" href="pdf1.pdf" target="_blank">Open PDF</a>
+      <a class="btn btn-secondary" href="pdf1.pdf" download>Download</a>
+    </div>
+  </div>
+
+  <!-- PDF 2 -->
+  <div class="pdf-card">
+    <div class="pdf-title">Advanced Electronics</div>
+    <div class="pdf-wrap">
+      <embed src="pdf2.pdf" type="application/pdf">
+    </div>
+    <div class="pdf-actions">
+      <a class="btn btn-primary" href="pdf2.pdf" target="_blank">Open PDF</a>
+      <a class="btn btn-secondary" href="pdf2.pdf" download>Download</a>
+    </div>
+  </div>
+
+  <!-- PDF 3 -->
+  <div class="pdf-card">
+    <div class="pdf-title">Power Systems</div>
+    <div class="pdf-wrap">
+      <embed src="pdf3.pdf" type="application/pdf">
+    </div>
+    <div class="pdf-actions">
+      <a class="btn btn-primary" href="pdf3.pdf" target="_blank">Open PDF</a>
+      <a class="btn btn-secondary" href="pdf3.pdf" download>Download</a>
+    </div>
+  </div>
+
+  <!-- PDF 4 -->
+  <div class="pdf-card">
+    <div class="pdf-title">Digital Signal Processing</div>
+    <div class="pdf-wrap">
+      <embed src="pdf4.pdf" type="application/pdf">
+    </div>
+    <div class="pdf-actions">
+      <a class="btn btn-primary" href="pdf4.pdf" target="_blank">Open PDF</a>
+      <a class="btn btn-secondary" href="pdf4.pdf" download>Download</a>
+    </div>
+  </div>
+
+  <!-- PDF 5 -->
+  <div class="pdf-card">
+    <div class="pdf-title">Microprocessor Fundamentals</div>
+    <div class="pdf-wrap">
+      <embed src="pdf5.pdf" type="application/pdf">
+    </div>
+    <div class="pdf-actions">
+      <a class="btn btn-primary" href="pdf5.pdf" target="_blank">Open PDF</a>
+      <a class="btn btn-secondary" href="pdf5.pdf" download>Download</a>
+    </div>
+  </div>
+
+  <!-- PDF 6 -->
+  <div class="pdf-card">
+    <div class="pdf-title">Control Systems</div>
+    <div class="pdf-wrap">
+      <embed src="pdf6.pdf" type="application/pdf">
+    </div>
+    <div class="pdf-actions">
+      <a class="btn btn-primary" href="pdf6.pdf" target="_blank">Open PDF</a>
+      <a class="btn btn-secondary" href="pdf6.pdf" download>Download</a>
+    </div>
+  </div>
+
+  <!-- PDF 7 -->
+  <div class="pdf-card">
+    <div class="pdf-title">Electronic Devices</div>
+    <div class="pdf-wrap">
+      <embed src="pdf7.pdf" type="application/pdf">
+    </div>
+    <div class="pdf-actions">
+      <a class="btn btn-primary" href="pdf7.pdf" target="_blank">Open PDF</a>
+      <a class="btn btn-secondary" href="pdf7.pdf" download>Download</a>
+    </div>
+  </div>
+
+  <!-- PDF 8 -->
+  <div class="pdf-card">
+    <div class="pdf-title">Renewable Energy Systems</div>
+    <div class="pdf-wrap">
+      <embed src="pdf8.pdf" type="application/pdf">
+    </div>
+    <div class="pdf-actions">
+      <a class="btn btn-primary" href="pdf8.pdf" target="_blank">Open PDF</a>
+      <a class="btn btn-secondary" href="pdf8.pdf" download>Download</a>
+    </div>
+  </div>
+
+  <!-- PDF 9 -->
+  <div class="pdf-card">
+    <div class="pdf-title">Electrical Machines</div>
+    <div class="pdf-wrap">
+      <embed src="pdf9.pdf" type="application/pdf">
+    </div>
+    <div class="pdf-actions">
+      <a class="btn btn-primary" href="pdf9.pdf" target="_blank">Open PDF</a>
+      <a class="btn btn-secondary" href="pdf9.pdf" download>Download</a>
+    </div>
+  </div>
+
+  <!-- PDF 10 -->
+  <div class="pdf-card">
+    <div class="pdf-title">Instrumentation and Measurement</div>
+    <div class="pdf-wrap">
+      <embed src="pdf10.pdf" type="application/pdf">
+    </div>
+    <div class="pdf-actions">
+      <a class="btn btn-primary" href="pdf10.pdf" target="_blank">Open PDF</a>
+      <a class="btn btn-secondary" href="pdf10.pdf" download>Download</a>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
