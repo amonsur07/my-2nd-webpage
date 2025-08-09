@@ -127,7 +127,7 @@
   <div class="pdf-card">
     <div class="pdf-title">Power Systems</div>
     <div class="pdf-wrap">
-      <embed src="pdf3.pdf" type="application/pdf">
+      <embed src="L-2 03_03_2024.pdf" type="application/pdf">
     </div>
     <div class="pdf-actions">
       <a class="btn btn-primary" href="pdf3.pdf" target="_blank">Open PDF</a>
